@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.helloworld">
+    package="com.example.proteintracker">
 
     <application
         android:allowBackup="true"
@@ -11,11 +11,38 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HelloWorld"
+        android:theme="@style/Theme.ProteinTracker"
         tools:targetApi="31">
         <activity
+            android:name=".TugasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_tugas"
+
+            />
+        <activity
+            android:name=".SimpleList"
+            android:exported="false" />
+        <activity
+            android:name=".ProteinTrackerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearActivity"
+            android:exported="false"
+            android:label="Linear Activity" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false"
+            android:label="Help Activity" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Main Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
