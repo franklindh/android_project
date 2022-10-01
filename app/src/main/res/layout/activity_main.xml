@@ -4,126 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn_ambil_nama"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="148dp"
-        android:text="@string/button"
-        android:textSize="11sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_input_nama" />
-
-    <Button
-        android:id="@+id/btn_help"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="148dp"
-        android:text="@string/help"
-        android:textSize="11sp"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ambil_nama" />
-
-    <Button
-        android:id="@+id/btn_linear"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="488dp"
-        android:text="@string/linear"
-
-        android:textSize="11sp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_constraint"
-        app:layout_constraintHorizontal_bias="0.41"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnListView"
-        android:layout_width="127dp"
-        android:layout_height="48dp"
-
-        android:layout_marginTop="76dp"
-        android:text="@string/listview"
-
-        android:textSize="11sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnTugas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_help"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btnTugas"
-        android:layout_width="127dp"
-        android:layout_height="48dp"
-
-        android:layout_marginTop="136dp"
-        android:text="@string/tugas"
-
-        android:textSize="11sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937" />
-
-    <Button
-        android:id="@+id/btn_constraint"
-        android:layout_width="127dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="140dp"
-
-        android:text="@string/constraint"
-        android:textSize="11sp"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_help" />
-
-    <Button
-        android:id="@+id/btn_table"
-        android:layout_width="104dp"
-        android:layout_height="48dp"
-
-        android:text="@string/table"
-        android:textSize="11sp"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_constraint"
-        app:layout_constraintTop_toBottomOf="@+id/btn_help" />
-
     <TextView
-        android:id="@+id/tv_main_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
+        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421" />
-
-    <EditText
-        android:id="@+id/ed_input_nama"
-        android:layout_width="112dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="344dp"
-        android:autofillHints="name"
-        android:backgroundTint="@android:color/white"
-        android:inputType="text"
-        android:labelFor="@id/ed_input_nama"
-        android:textColor="@color/black"
-        android:visibility="visible"
-        android:hint="Diisi"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        tools:visibility="visible" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
